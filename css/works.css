@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+  font-family: "Avenir Next"
+  font-weight: Extra Light;
+  font-style: italic;
+  color: rgb(46,49,146);
+  text-decoration: none;
+}
+
+
+body{
+  background-image: url(noise.png);
+}
+
+nav{
+  width: 960px;
+  height: 10vh;
+  margin: 0 auto;
+  /* background-color: #000; */
+}
+
+nav ul {
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;;
+  float: right;
+  text-align: center;
+  /* background-color: #555; */
+}
+
+nav li {
+  text-align: center;
+  list-style-type: none;
+  float: left;
+  margin-top: 20px;;
+  margin: 0 auto;
+  /* background-color: #888; */
+}
+
+.blank{
+  float: left;
+  width: 172px;
+  height: 100%;
+  /* background-color: #222; */
+}
+
+header{
+
+}
