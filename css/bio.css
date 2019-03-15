@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+  font-family: "Avenir Next"
+  font-weight: Extra Light;
+  font-style: italic;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+body{
+
+}
+
+nav{
+  width: 960px;
+  height: 10vh;
+  margin: 0 auto;
+  /* background-color: #000; */
+}
+
+nav ul {
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;;
+  float: right;
+  text-align: center;
+  /* background-color: #555; */
+}
+
+nav li {
+  color: #ffffff;
+  text-align: center;
+  list-style-type: none;
+  float: left;
+  margin-top: 20px;;
+  margin: 0 auto;
+  /* background-color: #888; */
+}
+
+.blank{
+  float: left;
+  width: 172px;
+  height: 100%;
+  /* background-color: #222; */
+}
+
+header{
+  background-image: url("back_bio.png");
+  height: 100vh;
+  background-size: cover;
+  background-position: center 50%;
+}
+
+h1{
+  /* float: left; */
+  color: #fff;
+  font-size: 120px;
+  text-align: center;
+  font-family: "Avenir";
+  font-weight: lighter;
+  font-style: italic;
+  line-height: 85vh;
+}
+
+.bio_back{
+  background-color: #aaa;
+  height: 100%;
+  background-image: url("bio_body_back.png");
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+h2{
+  text-align: center;
+  font-size: 48px;
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+  padding-top:50px;
+  margin-bottom: 50px;
+
+}
+
+.bio_body{
+  margin: 0 auto;
+  width: 960px;
+  background-color: #fff;
+  padding-bottom: 5px;
+  background-position: left;
+}
+
+.bio_main{
+  margin: 50px;
+  font-size: 12px;
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+
+}
+
+.bio_bio{
+  margin: 50px;
+}
+
+h3{
+  font-size: 15px;
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+}
+
+p{
+  font-size: 12px;
+  font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+}
